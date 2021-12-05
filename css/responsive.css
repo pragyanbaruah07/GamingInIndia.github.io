@@ -1,0 +1,61 @@
+@media only screen and (max-width: 768px){
+    .nav-list{
+        flex-direction: column;
+        width: 30%;
+
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+           /*height: 50px;*/
+    }
+    .rightNav{
+        width: 70%;
+        padding-right: 200px;
+        flex-direction: column;
+
+    }
+    .box-main{
+       flex-direction: column-reverse;
+       max-width: 100%;
+    }
+    .buttons{
+       padding-left: 50px;
+       padding-top: 180px;
+       text-align: center;
+   }
+   .sechalf img {
+       padding-top: 200px;
+   }
+    #search{
+        width: 30%;
+    }
+    .burger{
+       display: block;
+    }
+    .h-nav-resp{
+        height: 75px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .secright{
+        flex-direction: column-reverse;
+  }
+  .secmiddle{
+   flex-direction: column-reverse;
+}
+.secleft{
+   flex-direction: column-reverse;
+}
+.text-small{
+   text-align:center ;
+}
+.text-big{
+   text-align: center;
+}
+
+
+
+
+}
